@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
       <img src={product.image} alt={product.name} className="h-40 w-full object-cover rounded-t-lg"/>
       <div className="mt-4">
         <h3 className="text-lg font-semibold">{product.name}</h3>
-        <p className="mt-2 text-gray-600">${product.price}</p>
+        <p className="mt-2 text-gray-600">Rs.{product.price}</p>
         <button
           onClick={() => addToCart(product)}
           className="mt-4 bg-blue-500 text-white py-2 px-4 rounded"

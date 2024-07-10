@@ -3,8 +3,8 @@ import React from 'react';
 import ProductCard from '../components/ProductCard';
 
 const products = [
-  { id: 1, name: 'Product 1', price: 29.99, image: 'assests/1.jpg' },
-  { id: 2, name: 'Product 2', price: 39.99, image: 'assests/dummy4.jpg' },
+  { id: 1, name: 'Product 1', price: 290, image: 'assests/1.jpg' },
+  { id: 2, name: 'Product 2', price: 390, image: 'assests/dummy4.jpg' },
   // Add more products as needed
 ];
 
